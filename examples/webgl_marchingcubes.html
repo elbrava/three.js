@@ -77,8 +77,7 @@
           for (let j = 1; j <= size; j++) {
             for (let k = 1; k <= size; k++) {
               ballz = k;
-              ballx = (i / size) * 0.77;
-              bally = (j / size) * 0.77;
+              ballx = (i / size) *0.77;
               ballz = (k / size) * 0.77;
               bally = Math.abs(noise.noise2D(ballx * ma, ballz * ma) * 0.84);
               console.log(ballx, bally, ballz);
